@@ -1,0 +1,21 @@
+@import './Scss/bootstrap.scss';
+@import './Scss/screen-loader';
+
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color:black;
+}
+hr{
+    color: gold;
+}
